@@ -15,3 +15,12 @@ s を並べて表示しなさい。
 ≤100
 """
 
+a = int(input())
+
+bc = input().split()
+b = int(bc[0])
+c = int(bc[1])
+
+s = input()
+
+print(str(a+b+c) + " " + s)
