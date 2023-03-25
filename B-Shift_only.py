@@ -44,3 +44,15 @@ while True:
   counter += 1
 
 print(counter)
+
+------------------------------
+n = int(input())
+a = list(map(int, input().split()))
+counter = 0
+
+keep_going = True
+
+while all(num%2==0 for num in a):
+  a = [num//2 for num in a]
+  counter += 1
+print(counter)
